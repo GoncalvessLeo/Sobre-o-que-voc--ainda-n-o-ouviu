@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(45deg, #39B5E0,#F5EA5A, #FF78F0);
+  background-size: 500% 500%;
+  animation: 15s colors ease infinite;
+}
+
+@keyframes colors{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+     background-position: 100% 50%;
+  }
+  100%{
+     background-position: 0% 50%;
+  }
+ 
+}
+
+#seta{
+  display: flex;
+  width: 25px;
+  height: 47px;
+  margin: 6px 55px;
+  box-shadow: none;
+  color: #e3e3e3;
+}
+
+img{
+  width: 179px;
+  height: 216px;
+}
+
+h4{
+  margin: 34px;
+}
+
+.elementos{
+  margin-top: 30px;
+}
+
+.divisao{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #d9d9d9;
+  width: 600px;
+  height: 352px;
+  margin: 30px 0;
+  border-radius: 12px;
+}
+
+.imagem{
+  display: flex;
+  align-items: center;
+}
+
+.spotify{
+  margin: 30px 0;
+}
+
+#comida{
+  background-color: white;
+  padding: 10px;
+}
+
